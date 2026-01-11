@@ -4,8 +4,10 @@ vhdl xil_defaultlib  \
 "../../../../CTRL_SRAM.srcs/sources_1/new/BasculeD.vhd" \
 "../../../../../../test_io/iob.vhd" \
 "../../../../../../test_sram/mt55l512y36f.vhd" \
+"../../../../CTRL_SRAM.srcs/sources_1/new/fsm.vhd" \
 "../../../../../../test_sram/tb_test_sram.vhd" \
 "../../../../CTRL_SRAM.srcs/sim_1/new/tb_io.vhd" \
+"../../../../CTRL_SRAM.srcs/sim_1/new/tb_fsm.vhd" \
 
 # Do not sort compile order
 nosort

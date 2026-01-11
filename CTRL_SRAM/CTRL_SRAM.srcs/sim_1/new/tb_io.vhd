@@ -1,40 +1,8 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 21.11.2025 15:49:46
--- Design Name: 
--- Module Name: tb_io - tb_io_arch
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
 
 library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
--- synopsys translate_off
 library unisim;
+use IEEE.STD_LOGIC_1164.ALL;
 use unisim.VComponents.all;
--- synopsys translate_on
 
 entity tb_io is
 --  Port ( );
@@ -67,7 +35,11 @@ begin
     Data_in_s <= x"FFFFFFFF";
     Trig_r <='1';
     wait for 10 ns;
-    Data_in_s <= x"FFFFFFFF";
+    Trig_r <='0';
+    wait for 20ns;
+    Trig_r <='1';
+    Data_in_s <=x"ABCDABCD";
+    wait for 10ns;
     Trig_r <='0';
     wait for 100 ns;
     wait;
