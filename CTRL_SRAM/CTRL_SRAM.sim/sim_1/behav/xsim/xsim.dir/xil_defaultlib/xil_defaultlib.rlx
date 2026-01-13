@@ -4,11 +4,10 @@ Oct 19 2021
 03:16:22
 C:/Users/eltou/Documents/FPGA/CRTL_SRAM/CTRL_SRAM/CTRL_SRAM.srcs/sim_1/new/tb_fsm.vhd,1768062970,vhdl,,,,tb_fsm,,,,,,,,
 C:/Users/eltou/Documents/FPGA/CRTL_SRAM/CTRL_SRAM/CTRL_SRAM.srcs/sim_1/new/tb_io.vhd,1768044404,vhdl,,,,tb_io,,,,,,,,
+C:/Users/eltou/Documents/FPGA/CRTL_SRAM/CTRL_SRAM/CTRL_SRAM.srcs/sim_1/new/tb_test_sram.vhd,1768317843,vhdl,,,,tb_sdram_ctrl_sram,,,,,,,,
 C:/Users/eltou/Documents/FPGA/CRTL_SRAM/CTRL_SRAM/CTRL_SRAM.srcs/sources_1/new/BasculeD.vhd,1768061916,vhdl,,,,basculed,,,,,,,,
-C:/Users/eltou/Documents/FPGA/CRTL_SRAM/CTRL_SRAM/CTRL_SRAM.srcs/sources_1/new/SDRAM_ctrl.vhd,1763741556,vhdl,,,,sdram_ctrl,,,,,,,,
+C:/Users/eltou/Documents/FPGA/CRTL_SRAM/CTRL_SRAM/CTRL_SRAM.srcs/sources_1/new/SDRAM_ctrl.vhd,1768317519,vhdl,,,,sdram_ctrl,,,,,,,,
 C:/Users/eltou/Documents/FPGA/CRTL_SRAM/CTRL_SRAM/CTRL_SRAM.srcs/sources_1/new/fsm.vhd,1768063419,vhdl,C:/Users/eltou/Documents/FPGA/CRTL_SRAM/CTRL_SRAM/CTRL_SRAM.srcs/sim_1/new/tb_fsm.vhd,,,fsm,,,,,,,,
 C:/Users/eltou/Documents/FPGA/test_io/iob.vhd,1758629982,vhdl,,,,test_io,,,,,,,,
 C:/Users/eltou/Documents/FPGA/test_io/test/tb_test_io.vhd,1758632392,vhdl,,,,tb_test_io_vhd,,,,,,,,
 C:/Users/eltou/Documents/FPGA/test_sram/mt55l512y36f.vhd,1758627473,vhdl,,,,mt55l512y36f,,,,,,,,
-C:/Users/eltou/Documents/FPGA/test_sram/tb_test_sram.vhd,1764153008,vhdl,,,,tb_sdram_ctrl_sram,,,,,,,,
-C:/Users/eltou/Downloads/CTRL_SRAM_4_students/CTRL_SRAM_4_students/test_sram/tb_test_sram.vhd,1758627473,vhdl,,,,tb_test_sram,,,,,,,,
